@@ -1,0 +1,1 @@
+netstat -r | grep "default" | awk -F ' ' '/en0/ {print $2}';

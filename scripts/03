@@ -1,0 +1,4 @@
+#!/bin/bash
+hostname;
+getent passwd {1000..60000} | awk -F ':' '{print $1}';
+hostname -I;

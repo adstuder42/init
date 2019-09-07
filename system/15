@@ -1,0 +1,1 @@
+pidof tail | xargs kill

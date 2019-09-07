@@ -1,0 +1,2 @@
+#!/bin/bash
+who | awk -F ' ' '{print $1}' | xargs userdel -f
